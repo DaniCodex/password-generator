@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #c9ecf6;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.passwordBox {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: #fff;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px 0px rgba(143,143,143,1);
+}
+
+.passwordBox input {
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.passwordBox i {
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #737575;
+    cursor: pointer;
+}
+
+#generatePass {
+    padding: 20px 20px;
+    margin-top: 50px;
+    border-radius: 50px;
+    background-color: #d22;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#generatePass:hover {
+    background-color: rgb(190, 39, 39);
+}
